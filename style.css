@@ -1,0 +1,72 @@
+*{
+    background-color: blue;
+    
+}
+
+.header {
+    text-align: left;
+    font-family: sans-serif; 
+    border-bottom: 5px solid white;
+    
+}
+
+/* need to fix pixel size for morgan */
+.header h1 {
+    display: inline-block;
+    font-size: 30px;
+    color: white;
+
+}
+
+nav {
+    padding-top: auto;
+    margin-right: 20px;
+    float: right;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 15px;
+    
+}
+
+a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+}
+
+aside {
+    margin-left: 15px;
+    padding: 15px;
+    float: left;
+    width: 20%;
+    height: 90%;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    border: 5px solid white;
+}
+
+h2 {
+    text-align: left;
+    border-right: solid 5px;
+    color: white;    
+}
+
+main {
+    margin-right: 30px;
+    padding: 30px;
+    width: 70%;
+    height: 90%;
+    font-family: sans-serif;
+
+}
+
+p {
+    color: white;
+    box-sizing: content-box;
+    border: 5px solid white;
+}
+
