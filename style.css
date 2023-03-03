@@ -20,6 +20,7 @@ h1 {
 }
 
 nav {
+    display: flex;
     padding-top: 30px;
     margin-right: 20px;
     float: right;
@@ -49,28 +50,27 @@ aside{
 }
 
 #about-me {
-    flex: auto;
     flex-direction: row;
-    margin-top: 20px;
     margin-left: 15px;
     margin-bottom: 200px;
-    padding: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-top: 50px;
     font-family: sans-serif;
 
 }
 
 
 .main {
-
-    margin: auto;
-    padding: 30px;
+    margin-top: auto;
+    
     font-family: sans-serif;
     border-right: 5px color white;
-
 }
 
 h2 {
-    margin: auto;
+    margin-right: auto;
     float: right;
     text-align: center;
     color: white; 
@@ -84,7 +84,7 @@ article{
 }
 
 p {
-    margin: auto;
+    margin-top: 20px;
     text-align: center;
     font-family: sans-serif;
     color: white;
@@ -95,47 +95,121 @@ p {
 }
 
 #work{
-    flex: auto;
+    display: flex;
     float: left;
     margin-top: 20px;
     margin-left: 40px;
     margin-bottom: 200px;
-    padding: 15px;
+    padding: 30px;
     font-family: sans-serif;
-    border: 5px solid color white;
     } 
 
 .flexbox {
     display: flex;
-    flex: column;
     height: 0;
-    
     margin-left: 200px;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
   }
 
 
 div {
+    display: flex;
     text-align: center;
     margin-left: 200px;
     margin-right: 100px;
     margin-bottom: 220px;
+    
     color: white;
     justify-content: center;
-   
-    border-left: 5px solid color white;
+    
 }
 
 #horiseon {
-    flex: wrap;
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    display: block;
+    box-sizing: border-box color white;
+}
+
+#prework {
+    display: inline;
+   
+    
+    
+    
+    display: block;
+    box-sizing: border-box color white;
 }
 
 .flex-container {
     display: flex;
     height: 300px;
+    padding-left: 80px;
+    margin-left: 0;
+    border: 5px solid color white;
+  }
+
+  h3 {
+    font-size: 25px;
+    margin-right: auto;
+    float: right;
+    text-align: center;
+    color: white; 
+    padding-right: 50px; 
+    border-right: 5px color white;
+  }
+
+  form {
+    border-top: 5px solid color white;
+    width: 100%;
+  }
+
+  #contact-me {
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-bottom: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    align-content: flex-start;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
     
+    
+  }
+  div.email {
+    float: left;
+    text-align: center;
+    padding-left: 300px;
+    padding-bottom: 0;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    border-left-style: 5px solid;
+  }
+
+  div.github {
+    float: left;
+    text-align: center;
+    padding-left: 300px;
+    padding-bottom: 0;
+    margin-left: 100px;
+    margin-bottom: 50px;
+
+  }
+
+  footer{
+    text-align: center;
+    width: 100%;
+    margin-top: 700px;
+    padding-top: 10px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+    border-top: 5px solid white;
   }
