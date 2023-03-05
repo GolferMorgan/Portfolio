@@ -27,11 +27,11 @@ h1 {
 }
 
 nav {
-    background: blue;
     flex-wrap: wrap;
     display: flex;
-    margin-top: 20px;
+    margin-top: 15px;
     margin-right: 20px;
+    padding-right: 30px;
     float: right;
     font-family: sans-serif;
     font-size: 20px;
@@ -39,7 +39,7 @@ nav {
     
 }
 
-.header nav ul li {
+ nav ul li {
     background: blue;
     flex-wrap: wrap;
     display: inline-block;
@@ -93,11 +93,10 @@ h2 {
 
 article{
     text-align: center;
-   
-   
 }
 
 p {
+    flex-wrap: wrap;
     margin-top: 20px;
     text-align: center;
     font-size: 30px;
@@ -110,10 +109,13 @@ p {
 }
 
 .work{
+    flex-wrap: wrap;
     border-right: 5px solid white;
 }
+
 #work{
     display: flex;
+    flex-wrap: wrap;
     float: left;
     margin-top: 20px;
     margin-left: 20px;
@@ -126,7 +128,10 @@ p {
 .flexbox {
     display: flex;
     flex-direction: row;
+    text-align: center;
     height: 0;
+    padding-top: 20px;
+    margin-top: 20px;
     margin-left: 200px;
     justify-content: center;
     align-items: center;
@@ -145,25 +150,32 @@ div {
 }
 
 div.flex-container {
-    height: 100px;
-    width: 100%;
-    padding-top: 30px;
-    margin-top: 20px;
+    height: 200px;
+    padding-top: 50px;
+    margin-top: 50px;
     text-align: center;
     justify-content: space-around;
 }
 
 #horiseon::after {
+    text-align: center;
+    padding-top: 20px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     display: block;
+    
+}
+
+#horiseon {
+    padding-top: 20px;
     text-align: center;
 }
 
 .horiseon {
+    text-align: center;
     padding-right: 30px;
     padding-left: 30px;
 }
@@ -172,19 +184,21 @@ div.flex-container {
     display: inline;
     flex-direction: column;
     display: block;
+    margin-bottom: 40px;
+    text-align: center;
     box-sizing: border-box color white;
 }
 
 div#future {
-    margin-top: 20px;
     padding-top: 20px;
     text-align: center;
 }
+
 div.future::after {
     flex-direction: column;
     flex-wrap: wrap;
-    margin-top: 20px;
-    padding-top: 20px;
+    margin-top: 40px;
+    padding-top: 40px;
 }
 
 img {
@@ -217,8 +231,8 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     float: left;
-    padding-top: 850px;
-    margin-top: 650px;
+    padding-top: 950px;
+    margin-top: 950px;
     margin-left: -220px;
     margin-bottom: 0px;
     margin-right: 20px;
@@ -231,6 +245,7 @@ h3 {
   }
 
   h4 {
+    flex-wrap: wrap;
     margin-right: 10px;
     margin-bottom: 50px;
     margin-left: 10px;
@@ -238,6 +253,7 @@ h3 {
   }
  
   div.email {
+    flex-wrap: wrap;
     float: left;
     text-align: center;
     padding-left: 300px;
@@ -247,22 +263,15 @@ h3 {
   }
 
   div.github {
+    flex-wrap: wrap;
     float: left;
     text-align: center;
     padding-left: 300px;
     padding-bottom: 0;
     margin-left: 200px;
     margin-bottom: 50px;
-
   }
 
-  footer{
-    text-align: center;
-    width: 100%;
-    margin-top: 800px;
-    padding-top: 10px;
-    font-family: sans-serif;
-    font-size: 20px;
-    color: white;
-    border-top: 5px solid white;
+  @media screen and (max-width: 992px) {
+    body {width: 100%;}
   }
