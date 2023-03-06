@@ -46,7 +46,7 @@ a {
     flex-wrap: wrap;
     display: flex;
     color: white;
-    text-align: center;
+    
 }
 
 aside{
@@ -152,8 +152,8 @@ div {
 
 #prework a {
     position: relative;
-    left: 180px;
-    top: -10px;
+    left: -40px;
+    
 } 
 
 .horiseon {
@@ -164,21 +164,19 @@ div {
 
 #horiseon a {
     position: relative;
-    left: 180px;
-    top: -10px;
+    left: 10px;
 }
 
 #future {
     position: relative;
-    padding-top: 70px;
+    padding-top: 40px;
     text-align: center;
     padding-left: 280px;
 } 
 
 #future a{
-    position: absolute;
-    right: 220px;
-    top: 40px;
+    position: relative;
+    top: 10px;
 }
 
 img {
