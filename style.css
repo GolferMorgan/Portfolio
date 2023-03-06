@@ -12,7 +12,6 @@ header {
     flex-wrap: wrap;
     font-family: sans-serif; 
     border-bottom: 5px solid white;
-    
 }
 
 h1 {
@@ -23,7 +22,6 @@ h1 {
     border: solid 5px;
     padding: 10px;
     color: white;
-    
 }
 
 nav {
@@ -35,8 +33,7 @@ nav {
     float: right;
     font-family: sans-serif;
     font-size: 20px;
-    border: 5px solid white;
-    
+    border: 5px solid white;   
 }
 
  nav ul li {
@@ -46,7 +43,6 @@ nav {
     margin-left: 15px;
     margin-right: 15px;
     text-align: center;
-    
 }
 
 a {
@@ -63,16 +59,12 @@ aside{
 }
 
 #about-me {
-  
     flex-direction: row;
     margin-left: 15px;
     margin-bottom: 100px;
     padding-left: 15px;
     padding-right: 15px;
-    padding-bottom: 15px;
-    padding-top: 50px;
     font-family: sans-serif;
-
 }
 
 
@@ -105,7 +97,6 @@ p {
     border-left: 5px solid white;
     padding-left: 20px;
     padding-right: 50px;
-    
 }
 
 .work{
@@ -117,9 +108,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     float: left;
-    margin-top: 20px;
     margin-left: 20px;
-    margin-bottom: 150px;
     margin-right: 80px;
     padding: 10px;
     font-family: sans-serif;
@@ -140,16 +129,18 @@ p {
 
 div {
     flex-wrap: wrap;
-    text-align: center;
-    margin-right: 100px;
     color: white;
-    justify-content: space-around 10px;
     float: left;
     font-weight: bold;
-    
 }
 
-div.flex-container {
+.flex-container {
+    display: flex;
+    margin-left: 0;
+    border-left-style: 5px solid color white;
+  }
+
+.flex-container {
     height: 200px;
     padding-top: 50px;
     margin-top: 50px;
@@ -157,16 +148,13 @@ div.flex-container {
     justify-content: space-around;
 }
 
-#horiseon::after {
-    text-align: center;
-    padding-top: 20px;
-    display: flex;
+::after {
+    display: inline;
     flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
     display: block;
-    
+    margin-bottom: 40px;
+    text-align: center;
+    box-sizing: border-box color white;
 }
 
 #horiseon {
@@ -180,37 +168,14 @@ div.flex-container {
     padding-left: 30px;
 }
 
-#prework::after {
-    display: inline;
-    flex-direction: column;
-    display: block;
-    margin-bottom: 40px;
-    text-align: center;
-    box-sizing: border-box color white;
-}
-
-div#future {
+#future {
     padding-top: 20px;
     text-align: center;
-}
-
-div.future::after {
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin-top: 40px;
-    padding-top: 40px;
 }
 
 img {
     border: 5px solid white;
 }
-
-.flex-container {
-    display: flex;
-    margin-left: 0;
-    width: 50%;
-    border-left-style: 5px solid color white;
-  }
 
 h3 {
     font-size: 25px;
@@ -222,20 +187,15 @@ h3 {
     border-right-style: 5px color white;
   }
 
-  form {
-    border-top: 5px solid color white;
-    width: 100%;
-  }
-
   #contact-me {
     display: flex;
     flex-wrap: wrap;
     float: left;
-    padding-top: 950px;
-    margin-top: 950px;
-    margin-left: -220px;
+    padding-top: 650px;
+    margin-top: 650px;
+    margin-left: -240px;
     margin-bottom: 0px;
-    margin-right: 20px;
+    margin-right: 10px;
     padding: 0px;
     font-family: sans-serif;
     align-content: flex-start;
@@ -245,20 +205,24 @@ h3 {
   }
 
   h4 {
+    display: flex;
     flex-wrap: wrap;
     margin-right: 10px;
     margin-bottom: 50px;
     margin-left: 10px;
-    
+    padding-bottom: 40px;
+    padding-left: 20px;
   }
  
   div.email {
     flex-wrap: wrap;
     float: left;
     text-align: center;
-    padding-left: 300px;
+    padding-top: 20px;
+    padding-left: 120px;
     padding-bottom: 0;
     margin-bottom: 50px;
+    margin-left: 50px;
     border-left: 5px solid white;
   }
 
@@ -266,7 +230,8 @@ h3 {
     flex-wrap: wrap;
     float: left;
     text-align: center;
-    padding-left: 300px;
+    padding-top: 20px;
+    padding-left: 200px;
     padding-bottom: 0;
     margin-left: 200px;
     margin-bottom: 50px;
