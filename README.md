@@ -6,3 +6,9 @@ This was a more dificult task due to the fact that the entire thing was built fr
 
 ## Deployment
 The portfolio is deployed and a functioning website. All links currently work and direct you to the appropriate area.
+
+## Links to Portfolio
+
+https://golfermorgan.github.io/Portfolio/
+
+https://github.com/GolferMorgan/Portfolio
