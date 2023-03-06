@@ -112,12 +112,19 @@ p {
     margin-right: 80px;
     padding: 10px;
     font-family: sans-serif;
-    } 
-
+} 
+h3 {
+    font-size: 25px;
+    margin-right: 0;
+    float: right;
+    text-align: center;
+    color: white; 
+    padding-right: 50px; 
+    border-right-style: 5px color white;
+}
 .flexbox {
     display: flex;
-    flex-direction: row;
-    text-align: center;
+   
     height: 0;
     padding-top: 20px;
     margin-top: 20px;
@@ -150,16 +157,11 @@ div {
 
 ::after {
     display: inline;
-    flex-direction: column;
+    
     display: block;
     margin-bottom: 40px;
     text-align: center;
     box-sizing: border-box color white;
-}
-
-#horiseon {
-    padding-top: 20px;
-    text-align: center;
 }
 
 .horiseon {
@@ -176,16 +178,6 @@ div {
 img {
     border: 5px solid white;
 }
-
-h3 {
-    font-size: 25px;
-    margin-right: 0;
-    float: right;
-    text-align: center;
-    color: white; 
-    padding-right: 50px; 
-    border-right-style: 5px color white;
-  }
 
   #contact-me {
     display: flex;
